@@ -72,7 +72,7 @@ set CLASSPATH=%APP_HOME%\lib\com.eventense.eventense-ktor-app-0.0.1.jar;%APP_HOM
 
 
 @rem Execute com.eventense.eventense-ktor-app
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %COM_EVENTENSE_EVENTENSE_KTOR_APP_OPTS%  -classpath "%CLASSPATH%" ApplicationKt %*
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %COM_EVENTENSE_EVENTENSE_KTOR_APP_OPTS%  -classpath "%CLASSPATH%" com.eventense.ApplicationKt %*
 
 :end
 @rem End local scope for the variables with windows NT shell
