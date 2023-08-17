@@ -74,5 +74,5 @@ task("stage") {
 }
 
 application {
-    mainClass.set("Application")
+    mainClass.set("com.eventense.ApplicationKt")
 }
